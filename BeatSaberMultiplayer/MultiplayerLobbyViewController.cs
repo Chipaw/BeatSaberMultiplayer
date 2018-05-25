@@ -287,7 +287,7 @@ namespace BeatSaberMultiplayer
 
         IEnumerator DownloadSongByLevelId(string levelId)
         {
-            Console.WriteLine("Donwloading "+ levelId.Substring(0, levelId.IndexOf('∎')));
+            Console.WriteLine("Downloading "+ levelId.Substring(0, levelId.IndexOf('∎')));
 
             _selectText.text = "Connecting to BeatSaver.com...";
 
